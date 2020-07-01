@@ -6,18 +6,18 @@ import re
 import os
 import shutil
 
-AUTHOR = 'ERIC KIM'
-AUTHOR_LOWER = 'Eric Kim'
-AUTHOR_SHORTENED = 'Eric'
-AUTHOR_SUBTITLE = 'Data Scientist, Petroleum Engineer'
-SITENAME = 'Pythonic Excursions'
-SITESUBTITLE = u'Stories about Python and Data Science'
-SITE_DESCRIPTION = 'Pythonic Excursions | Stories about Python and Data Science'
+AUTHOR = 'VIOLET OH'
+AUTHOR_LOWER = 'Violet Oh'
+AUTHOR_SHORTENED = 'Violet'
+AUTHOR_SUBTITLE = 'Computer Scientist, Software Engineer'
+SITENAME = 'Starry Code'
+SITESUBTITLE = u'Coding with STARS'
+SITE_DESCRIPTION = 'Starry Code | Coding with STARS(Skills in Technology and Artificial intelligence Regarding Software development)'
 SITEURL = ''
 
 
 # Regional Settings
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/Chicago'
 DATE_FORMATS = {'en': '%b %d, %Y'}
 DEFAULT_LANG = u'en'
 
@@ -107,9 +107,10 @@ ENABLE_MATHJAX = True
 
 # files are actually saved in /aegis-jupyter/static/img/, but its copied to /output/theme/img/.
 # just store any meta files in /aegis-jupyter/static/, and you are good.
-PROFILE_PHOTO_FOOTER = "theme/img/profile_photo_footer.jpg"
-PROFILE_PHOTO_ABOUT = "theme/img/profile_photo_about.jpg"
-INDEX_BANNER_IMAGE = "theme/img/index_banner_image.jpg"
+PROFILE_PHOTO_FOOTER = "theme/img/profile_picture.jpg"
+PROFILE_PHOTO_ABOUT = "theme/img/profile_picture.jpg"
+INDEX_BANNER_IMAGE = "theme/img/java_background.jpg" # image from my project
+ABOUT_BANNER_IMAGE = "theme/img/java_programming.jpeg" # image from google
 LOGO_WITH_SUBTITLE = "theme/img/logo_with_subtitle.svg"  # logo created at "https://vectr.com/"
 
 # actually located in 'content/downloads/misc/'. Files in 'content/downloads' will be copied into 'output/downloads' to
@@ -117,8 +118,8 @@ LOGO_WITH_SUBTITLE = "theme/img/logo_with_subtitle.svg"  # logo created at "http
 RESUME_PDF_LINK = 'downloads/misc/Resume_Fall_2019.pdf'
 RESUME_BUTTON_TEXT = 'Download CV'
 
-GITHUB_LINK = 'https://github.com/aegis4048'
-LINKEDIN_LINK = 'https://www.linkedin.com/in/eric-kim-34318811b/'
+GITHUB_LINK = 'https://github.com/starrycode'
+LINKEDIN_LINK = 'https://www.linkedin.com/in/jiye-oh-9195081a8/'
 
 ABOUT_PAGE = 'about.html'
 ARCHIVE_PAGE = 'archives.html'
@@ -152,16 +153,16 @@ copy_jupyter_images_to_output(JUPYTER_IMAGES_DIR)
 ############################ Social Media Shares ############################
 
 # About Page
-ABOUT_PAGE_TITLE = 'About Eric'
-ABOUT_PAGE_DESCRIPTION = 'Pythonic Thinker & Solver, Petroleum Engineer'
+ABOUT_PAGE_TITLE = 'About Violet'
+ABOUT_PAGE_DESCRIPTION = 'Software Engineer, Computer Scientist'
 
 # Archive Page
 ARCHIVE_PAGE_TITLE = 'Archive'
-ARCHIVE_PAGE_DESCRIPTION = 'Full Archives of Pythonic Excursions'
+ARCHIVE_PAGE_DESCRIPTION = 'Full Archives of Starry Code'
 
 # landing(index) page description
-INDEX_PAGE_TITLE = 'Pythonic Excursions'
-INDEX_PAGE_DESCRIPTION = u'Stories About Python and Data Science | by Eric Kim'
+INDEX_PAGE_TITLE = 'Starry Code'
+INDEX_PAGE_DESCRIPTION = u'Coding with STARS | by Violet Oh'
 
 ### social media share debugger
 # Twitter: https://cards-dev.twitter.com/validator
@@ -170,14 +171,14 @@ INDEX_PAGE_DESCRIPTION = u'Stories About Python and Data Science | by Eric Kim'
 
 ##############################################################################
 
-FOOTER_TITLE = 'ABOUT ERIC'
+FOOTER_TITLE = 'ABOUT VIOLET'
 TEXT_FOOTER = 'Senior undergraduate student at the Univeristy of Texas at Austin, Hildebrand Department of Petroleum ' \
               'Engineering, the #1 petroleum engineering school in the US. I am a self-taught Python developer with ' \
               'strong engineering & statistical background. I am good at creating clean, easy-to-read codes for data ' \
               'analysis. I enjoy assisting my fellow engineers by developing accessible and reproducible codes.'
-EMAIL = 'aegis4048@gmail.com'
-LOCATION = 'Texas, USA'
-COPYRIGHT_NOTICE = 'Handcrafted by me @2018'
+EMAIL = 'jiyeoh81@gmail.com'
+LOCATION = 'Oklahoma, USA'
+COPYRIGHT_NOTICE = 'Handcrafted by me @2020'
 
 INCLUDE_PROGRESSBAR = True
 PROGRESSBAR_COLOR = '#24292e'
@@ -215,7 +216,7 @@ TECH_STACKS_LEFT, TECH_STACKS_RIGHT = process_techstacks(TECH_STACKS, NUM_MAX_ST
 
 ##################################################################################################################
 
-PORT = 8090
+PORT = 9999
 
 # git submodule add https://github.com/aegis4048/aegis4048.github.io.git output
 # git rm --cached pelican-aegis-jupyter-theme -r
