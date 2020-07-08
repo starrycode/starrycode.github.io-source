@@ -111,13 +111,13 @@ PROFILE_PHOTO_FOOTER = "theme/img/profile_picture.jpg"
 PROFILE_PHOTO_ABOUT = "theme/img/profile_picture.jpg"
 INDEX_BANNER_IMAGE = "theme/img/java_background.jpg" # image from my project
 ABOUT_BANNER_IMAGE = "theme/img/java_programming.jpeg" # image from google
-LOGO_WITH_SUBTITLE = "theme/img/logo_with_subtitle.svg"  # logo created at "https://vectr.com/"
+LOGO_WITH_SUBTITLE = "theme/img/logo_starrycode.svg"  # logo created at "https://vectr.com/"
 
 # actually located in 'content/downloads/misc/'. Files in 'content/downloads' will be copied into 'output/downloads' to
 # auto-generate html href link.
 RESUME_PDF_LINK = 'downloads/misc/Resume_Fall_2019.pdf'
 RESUME_BUTTON_TEXT = 'Download CV'
-
+# EMAIL_TO_LINK = 
 GITHUB_LINK = 'https://github.com/starrycode'
 LINKEDIN_LINK = 'https://www.linkedin.com/in/jiye-oh-9195081a8/'
 
