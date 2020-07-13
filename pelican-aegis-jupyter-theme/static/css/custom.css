@@ -66,6 +66,10 @@ hr {
     margin-top: 20px;
 }
 /*navbar begin*/
+
+
+
+
 .banner {
     background-color: #24292e !important;
     width: 100%;
@@ -86,11 +90,19 @@ hr {
     padding-top: 0;
     min-height: 47px;
 }
-#navbar a {
-    color: #ECF0F1;
+.navbar a {
+   
+    color: #ECF0F1 !important;
     text-transform: uppercase;
     font-weight: 500;
 }
+@media (max-width: 760px) {
+  .navbar a:hover {
+    background-color: #ECF0F1;
+    color: #212529 !important;
+  }
+}
+
 .navbar-title {
     justify-content: space-between;
     display: flex;
@@ -107,8 +119,9 @@ hr {
     display: None !important;
 }
 .navbar-nav {
-  
+ 
 }
+
 .navbar-toggler {
     border-color: #ECF0F1;
     padding: 0 3px !important;
@@ -137,6 +150,7 @@ hr {
 .nav-link.collapsed {
     background-color: #212529;
 }
+
 .text-align-center {
     text-align: center;
 }
@@ -222,7 +236,7 @@ hr {
 #search-form.collapsed{
     background-color: #212529;
     margin-top: 0 !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 10px !important;
     padding-top: .5rem !important;
     padding-bottom: .5rem !important;
 }
@@ -383,7 +397,7 @@ footer p {
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-backgound-size:100% 100%; /* early css3 implementation */
+    -webkit-background-size:100% 100%; /* early css3 implementation */
     -webkit-background-size:cover;
 }
 .masthead h1 {

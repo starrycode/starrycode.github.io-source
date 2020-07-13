@@ -206,7 +206,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: $navbar-dark-brand-color;
 
       @include hover-focus {
         color: $navbar-light-hover-color;
