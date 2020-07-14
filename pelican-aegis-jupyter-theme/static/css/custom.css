@@ -66,11 +66,9 @@ hr {
     margin-top: 20px;
 }
 /*navbar begin*/
-
 .banner {
     background-color: #24292e !important;
     width: 100%;
-
 }
 .banner-wrapper {
     min-width: 310px;
@@ -78,7 +76,6 @@ hr {
     width: 100%;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    
 }
 #navbar {
     background-color: #24292e !important;
@@ -87,18 +84,17 @@ hr {
     padding-top: 0;
     min-height: 47px;
 }
-.navbar a {
-    color: #ECF0F1 !important;
+#navbar a {
+    color: #ECF0F1;
     text-transform: uppercase;
     font-weight: 500;
 }
 @media (max-width: 760px) {
-  .navbar a:hover {
-    background-color: #ECF0F1;
-    color: #212529 !important;
-  }
+	.navbar .nav-link:hover {
+	   background-color: #ECF0F1;
+	   color: #212529 !important;
+	}
 }
-
 .navbar-title {
     justify-content: space-between;
     display: flex;
@@ -115,9 +111,7 @@ hr {
     display: None !important;
 }
 .navbar-nav {
- 
 }
-
 .navbar-toggler {
     border-color: #ECF0F1;
     padding: 0 3px !important;
@@ -146,7 +140,6 @@ hr {
 .nav-link.collapsed {
     background-color: #212529;
 }
-
 .text-align-center {
     text-align: center;
 }
@@ -181,7 +174,6 @@ hr {
     outline: unset !important;
     padding: 6px 12px !important;
     background: #fff !important;
-    padding-right: 50px;
 }
 .tipue_search_content_url {
     display: none;
@@ -243,7 +235,7 @@ form .row .collapsed{
     height: 1.8rem;
     padding: 1px 6px !important;
     min-width: 60px;
-    padding-left:-50px;
+    padding-left: -50px;
 }
 #last-item .collapsed{
     background-color: #212529;
@@ -251,10 +243,6 @@ form .row .collapsed{
 #last-item .nav-link .collapsed{
     padding-bottom: 0;
 }
-.flex {
-         flex-flow: row;
-         
-      }
 /*navbar end*/
 
 
@@ -393,7 +381,7 @@ footer p {
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -webkit-background-size:100% 100%; /* early css3 implementation */
+    -webkit-backgound-size:100% 100%; /* early css3 implementation */
     -webkit-background-size:cover;
 }
 .masthead h1 {
@@ -2376,8 +2364,11 @@ margin-top: 20px;
 .contacts.no-link {
     max-width: 200px;
 }
-.index-scroll-container{
+.index-scroll-container {
 
+}
+.related-post .pop-over {
+    display: flex;
 }
 .related-post .article-row {
     display: -webkit-box;
