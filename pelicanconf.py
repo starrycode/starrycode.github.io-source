@@ -109,8 +109,8 @@ ENABLE_MATHJAX = True
 # just store any meta files in /aegis-jupyter/static/, and you are good.
 PROFILE_PHOTO_FOOTER = "theme/img/profile_picture.jpg"
 PROFILE_PHOTO_ABOUT = "theme/img/profile_picture.jpg"
-INDEX_BANNER_IMAGE = "theme/img/java_background.jpg" # image from my project
-ABOUT_BANNER_IMAGE = "theme/img/java_programming.jpeg" # image from google
+INDEX_BANNER_IMAGE = "theme/img/purple_keyboard.jpg" # image from my project
+ABOUT_BANNER_IMAGE = "theme/img/java_background.jpg" # image from google
 LOGO_WITH_SUBTITLE = "theme/img/logo_starrycode.svg"  # logo created at "https://vectr.com/"
 
 # actually located in 'content/downloads/misc/'. Files in 'content/downloads' will be copied into 'output/downloads' to
@@ -119,7 +119,7 @@ RESUME_PDF_LINK = 'downloads/misc/Resume_Fall_2019.pdf'
 RESUME_BUTTON_TEXT = 'Download CV'
 # EMAIL_TO_LINK = 
 GITHUB_LINK = 'https://github.com/starrycode'
-LINKEDIN_LINK = 'https://www.linkedin.com/in/jiye-oh-9195081a8/'
+LINKEDIN_LINK = 'https://www.linkedin.com/in/violet-oh-9195081a8'
 
 ABOUT_PAGE = 'about.html'
 ARCHIVE_PAGE = 'archives.html'
@@ -172,10 +172,10 @@ INDEX_PAGE_DESCRIPTION = u'Coding with STARS | by Violet Oh'
 ##############################################################################
 
 FOOTER_TITLE = 'ABOUT VIOLET'
-TEXT_FOOTER = 'Senior undergraduate student at the Univeristy of Texas at Austin, Hildebrand Department of Petroleum ' \
-              'Engineering, the #1 petroleum engineering school in the US. I am a self-taught Python developer with ' \
-              'strong engineering & statistical background. I am good at creating clean, easy-to-read codes for data ' \
-              'analysis. I enjoy assisting my fellow engineers by developing accessible and reproducible codes.'
+TEXT_FOOTER = 'Sophomore undergraduate research assistant at the Univeristy of Oklahoma, Gallogly Department of Computer Science ' \
+              'I am a fast learner who can code in java, python and javascript interchangeably. Specified in Machine Learning, ' \
+              'Artificial Intelligence and Robotics, I am currently working as an undergraduate research assistant in REAL Lab (Robotics, ' \
+              'Evolution, Adaptation, and Learning Laboratory). I am good at collaborating with others through git, as well as debugging code .'
 EMAIL = 'jiyeoh81@gmail.com'
 LOCATION = 'Oklahoma, USA'
 COPYRIGHT_NOTICE = 'Handcrafted by me @2020'
@@ -188,9 +188,7 @@ PROGRESSBAR_COLOR = '#24292e'
 ##############################################################################
 
 CARD_POSTS = {
-    'Parse PDF Files While Retaining Structure with Tabula-py': 'parse-pdf-files-while-retaining-structure-with-tabula-py',
-    'Optimize Computational Efficiency of Skip-Gram with Negative Sampling': 'optimize_computational_efficiency_of_skip-gram_with_negative_sampling',
-    'Demystifying Neural Network in Skip-Gram Language Modeling': 'demystifying_neural_network_in_skip_gram_language_modeling',
+    'Test': 'parse-pdf-files-while-retaining-structure-with-tabula-py',
 }
 
 ##################################################################################################################

@@ -16,5 +16,5 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "pythonic-excursions"
-GOOGLE_ANALYTICS = "UA-133310548-1"
+#DISQUS_SITENAME = "pythonic-excursions"
+#GOOGLE_ANALYTICS = "UA-133310548-1"
