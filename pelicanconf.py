@@ -107,15 +107,15 @@ ENABLE_MATHJAX = True
 
 # files are actually saved in /aegis-jupyter/static/img/, but its copied to /output/theme/img/.
 # just store any meta files in /aegis-jupyter/static/, and you are good.
-PROFILE_PHOTO_FOOTER = "theme/img/profile_picture.jpg"
-PROFILE_PHOTO_ABOUT = "theme/img/profile_picture.jpg"
+PROFILE_PHOTO_FOOTER = "theme/img/profile_picture1.jpg"
+PROFILE_PHOTO_ABOUT = "theme/img/profile_picture1.jpg"
 INDEX_BANNER_IMAGE = "theme/img/purple_keyboard.jpg" # image from my project
 ABOUT_BANNER_IMAGE = "theme/img/java_background.jpg" # image from google
 LOGO_WITH_SUBTITLE = "theme/img/logo_starrycode.svg"  # logo created at "https://vectr.com/"
 
 # actually located in 'content/downloads/misc/'. Files in 'content/downloads' will be copied into 'output/downloads' to
 # auto-generate html href link.
-RESUME_PDF_LINK = 'downloads/misc/Resume_Fall_2019.pdf'
+RESUME_PDF_LINK = 'downloads/misc/Resume_Violet.pdf'
 RESUME_BUTTON_TEXT = 'Download CV'
 # EMAIL_TO_LINK = 
 GITHUB_LINK = 'https://github.com/starrycode'
@@ -172,11 +172,13 @@ INDEX_PAGE_DESCRIPTION = u'Coding with STARS | by Violet Oh'
 ##############################################################################
 
 FOOTER_TITLE = 'ABOUT VIOLET'
-TEXT_FOOTER = 'Sophomore undergraduate research assistant at the Univeristy of Oklahoma, Gallogly Department of Computer Science ' \
-              'I am a fast learner who can code in java, python and javascript interchangeably. Specified in Machine Learning, ' \
-              'Artificial Intelligence and Robotics, I am currently working as an undergraduate research assistant in REAL Lab (Robotics, ' \
-              'Evolution, Adaptation, and Learning Laboratory). I am good at collaborating with others through git, as well as debugging code .'
-EMAIL = 'jiyeoh81@gmail.com'
+TEXT_FOOTER = 'Sophomore undergraduate research assistant at the Univeristy of Oklahoma, Gallogly College of Engineering, Department of Computer Science. ' \
+              'I am a fast learner who can code in java, python and javascript interchangeably. Interested in Machine Learning, ' \
+              'Artificial Intelligence and Robotics, I am currently a lab member in <a href="https://www.researchgate.net/lab/Robotics-Evolution-Adaptation-and-Learning-Laboratory-REAL-Lab-Dean-Frederick-Hougen"> ' \
+              'REAL Lab</a> ' \
+              '(Robotics, Evolution, Adoptation, and Learning Laboratory), led by Dr. Hougen at the University of Okalhoma. ' \
+              'I am good at collaborating with others through git, as well as debugging codes.'
+EMAIL = 'violet.oh16@gmail.com'
 LOCATION = 'Oklahoma, USA'
 COPYRIGHT_NOTICE = 'Handcrafted by me @2020'
 
@@ -188,7 +190,8 @@ PROGRESSBAR_COLOR = '#24292e'
 ##############################################################################
 
 CARD_POSTS = {
-    'Test': 'parse-pdf-files-while-retaining-structure-with-tabula-py',
+    'Visual Understanding Of Selection Sort Algorithm': 'visual-understanding-of-selection-sort-algorithm',
+    'Visual Understanding Of Insertion Sort Algorithm': 'visual-understanding-of-insertion-sort-algorithm',
 }
 
 ##################################################################################################################

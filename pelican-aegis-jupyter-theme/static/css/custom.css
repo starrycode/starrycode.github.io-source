@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -101,6 +101,7 @@ hr {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+    padding-left: 0;
 }
 .navbar-brand {
     margin-top: 0.2rem;
@@ -496,7 +497,7 @@ article div.social-links li a:hover {
   text-decoration: none;
 }
 article p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0;
     line-height: 1.7em;
     margin-top: 20px;
@@ -529,8 +530,8 @@ article ol {
   margin-bottom: 25px;
 }
 article li {
-  font-size: 0.9rem;
-  line-height: 1.6em;
+  font-size: 1rem;
+  line-height: 1.7em;
 }
 article a:hover {
   text-decoration: underline;
@@ -745,7 +746,8 @@ div.output_area .rendered_html table {
     padding: 1.25rem !important
 }
 .text_cell_render ol li {
-    font-size: inherit;
+    font-size: 1rem;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif !important;
 }
 
 
@@ -2361,8 +2363,15 @@ margin-top: 20px;
     align-items: center;
     padding-left: 0;
 }
+/*
 .contacts.no-link {
     max-width: 200px;
+}
+*/
+@media (max-width: 992px) {
+    .contacts.no-link {
+        max-width: 200px;
+    }
 }
 .index-scroll-container {
 
