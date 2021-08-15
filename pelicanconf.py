@@ -172,12 +172,12 @@ INDEX_PAGE_DESCRIPTION = u'Coding with STARS | by Violet Oh'
 ##############################################################################
 
 FOOTER_TITLE = 'ABOUT VIOLET'
-TEXT_FOOTER = 'Sophomore undergraduate research assistant at the Univeristy of Oklahoma, Gallogly College of Engineering, Department of Computer Science. ' \
-              'I am a fast learner who can code in java, python and javascript interchangeably. Interested in Machine Learning, ' \
-              'Artificial Intelligence and Robotics, I am currently a lab member in <a href="https://www.researchgate.net/lab/Robotics-Evolution-Adaptation-and-Learning-Laboratory-REAL-Lab-Dean-Frederick-Hougen"> ' \
-              'REAL Lab</a> ' \
-              '(Robotics, Evolution, Adoptation, and Learning Laboratory), led by Dr. Hougen at the University of Okalhoma. ' \
-              'I am good at collaborating with others through git, as well as debugging codes.'
+TEXT_FOOTER = 'Junior undergraduate research assistant at the Univeristy of Oklahoma, Gallogly College of Engineering, Department of Computer Science. ' \
+              'I am a fast learner who can code in Java, Python, and JavaScript interchangeably. ' \
+              'I am good at collaborating with others through Git, as well as debugging code.'
+              #'Artificial Intelligence and Robotics, I am currently a lab member in <a href="https://www.researchgate.net/lab/Robotics-Evolution-Adaptation-and-Learning-Laboratory-REAL-Lab-Dean-Frederick-Hougen"> ' \
+              #'REAL Lab</a> ' \
+
 EMAIL = 'violet.oh16@gmail.com'
 LOCATION = 'Oklahoma, USA'
 COPYRIGHT_NOTICE = 'Handcrafted by me @2020'
@@ -193,6 +193,7 @@ CARD_POSTS = {
     'Visual Understanding Of Selection Sort Algorithm': 'visual-understanding-of-selection-sort-algorithm',
     'Visual Understanding Of Insertion Sort Algorithm': 'visual-understanding-of-insertion-sort-algorithm',
 }
+
 
 ##################################################################################################################
 # code snippet for processing variables for auto-generation of Tech Stacks
@@ -229,6 +230,11 @@ PORT = 9999
 
 # pelican content -s publishconf.py
 #test
+
+# To generate local output front-end:
+# >>> pelican content
+# To generate display-ready front-end
+# >>>  pelican content -s publishconf.py
 
 # Javascript function for estimating reading time. Run this on an article, and set the 'readingTime' variable in .md files.
 """
