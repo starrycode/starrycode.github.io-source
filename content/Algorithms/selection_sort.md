@@ -1,7 +1,7 @@
 Title: Visual Understanding of Selection Sort Algorithm
 Tags: algorithm, sorting, selection sort, algorithm complexity
 Date: 2020-08-19
-DatePrev: 2019-08-19
+DatePrev: 2020-08-19
 Slug: visual-understanding-of-selection-sort-algorithm
 Subtitle:
 Keywords: 

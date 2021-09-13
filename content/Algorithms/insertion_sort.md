@@ -1,7 +1,7 @@
 Title: Visual Understanding of Insertion Sort Algorithm
 Tags: algorithm, sorting, insertion sort, algorithm complexity
 Date: 2020-09-01
-DatePrev: 2019-09-01
+DatePrev: 2020-09-01
 Slug: visual-understanding-of-insertion-sort-algorithm
 Subtitle:
 Keywords: 
